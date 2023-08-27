@@ -3,8 +3,8 @@ import Food_img from '../public/food-unsplash.jpg'
 
 export default function Home() {
   return (
-    <main className="w-screen h-screen flex dark:text-black overflow-hidden text-lg aspect-[3/2]">
-      <div className=" h-screen w-1/2 pl-16 pt-12">
+    <main className="w-screen h-screen flex dark:text-amber-100 overflow-hidden text-lg">
+      <div className=" h-screen w-1/2 pl-20 pt-12">
         <nav className="font-light">
           <a href="google.com" className="pr-6">Home</a>
           <a href="google.com" className="border-l-2 border-r-2 border-green-700 px-6" >About us</a>
@@ -22,6 +22,10 @@ export default function Home() {
         <div className=" w-fit mt-6">
           <button type="button" className=" px-6 py-2 bg-green-700 border-2 border-green-700 mr-2 rounded-full"> Order Now</button>
           <button type="button" className=" px-6 py-2 border-green-700 border-2 rounded-full ml-2"> Contact Us</button>
+        </div>
+        <div className="w-60 text-center mt-24">
+          <p>Chatkhil, Noakhali</p>
+          <p className="border-t-4">Dine with Food Custody</p>
         </div>
       </div>
       <div className="bg-blue-300 h-screen w-1/2">
