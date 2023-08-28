@@ -6,7 +6,7 @@ export default function Home() {
     <main className="w-screen h-screen flex dark:text-amber-100 overflow-hidden text-lg">
       <div className=" h-screen w-1/2 pl-20 pt-12">
         <nav className="font-light">
-          <a href="google.com" className="pr-6">Home</a>
+          <a href="/responsive" className="pr-6">Home</a>
           <a href="google.com" className="border-l-2 border-r-2 border-green-700 px-6" >About us</a>
           <a href="google.com" className="px-6" >Menu</a>
           <a href="google.com" className="border-l-2 border-r-2 border-green-700 px-6" >Contact us</a>
