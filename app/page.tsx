@@ -3,7 +3,7 @@ import Food_img from '../public/food-unsplash.jpg'
 
 export default function Home() {
   return (
-    <main className="w-screen h-screen flex dark:text-amber-100 overflow-hidden text-lg">
+    <main className="w-screen h-screen flex overflow-hidden text-lg">
       <div className=" h-screen w-1/2 pl-20 pt-12">
         <nav className="font-light">
           <a href="/responsive" className="pr-6">Home</a>
