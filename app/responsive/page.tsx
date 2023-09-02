@@ -87,7 +87,7 @@ export default function Home() {
 
         <p className="w-3/4 md:2/4 text-base font-light">Welcome to our Halal Restaurant, where you can indulge in a wide variety of delicious and authentic halal dishes in a warm and welcoming atmosphere. At our restaurant, we believe that food is not just about nourishing the body, but also about feeding the soul. That's why we use only the finest and skilled chefs, to create mouth-watering dishes that are sure to satisfy your cravings.</p>
 
-        <div className=" sm:w-fit mt-6 flex flex-col">
+        <div className=" sm:w-fit mt-6 flex flex-col sm:flex-row">
 
           <button type="button" className=" mb-4 sm:mb-0 px-6 py-2 bg-green-700 border-2 border-green-700 mr-2 rounded-full"> Order Now</button>
           <button type="button" className=" px-6 py-2 border-green-700 border-2 rounded-full sm:ml-2"> Contact Us</button>
@@ -99,7 +99,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-blue-300 h-screen w-full md:w-1/2">
+      <div className="md:w-1/2 md:h-auto">
        <Image src={Food_img} alt="photo of food" priority="true" />
       </div>
       
