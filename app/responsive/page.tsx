@@ -1,13 +1,14 @@
+
 import Image from 'next/image'
 import Food_img from '/public/food-unsplash.jpg'
 import {RxHamburgerMenu} from 'react-icons/rx'
 
 export default function Home() {
   return (
-    <main className="w-screen h-screen flex flex-col sm:overflow-hidden sm:text-lg bg-blue-200 sm:flex-row md:bg-red-200">
+    <main className="w-screen h-screen flex flex-col sm:overflow-hidden text-lg bg-blue-200 sm:flex-row md:bg-red-200">
       <div className=" h-full w-full grid place-items-center md:place-items-start md:pl-20 pt-3 sm:pt-12 sm:w-1/2">
-        <button className="sm:hidden absolute top-0 left-0 z-10 ml-2 mt-2"><RxHamburgerMenu /></button>
-        <nav className="font-light invisible absolute ml-2 top-0 right-0 sm:static bg-blue-300">
+        <nav className="font-light invisible absolute top-0 right-0 sm:static">
+          <button className=" sm:hidden"><RxHamburgerMenu /></button>
           <ul className="flex invisible sm:visible">
             <li>
               <a href="google.com" className="pr-6">Home</a>
@@ -26,7 +27,7 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <h3 className=" w-fit my-5 sm:my-14 text-xl bg-blue-700">Visit our <span className="font-bold">Food Custody</span></h3>
+        <h3 className=" w-fit my-5 sm:my-14 text-xl">Visit our <span className="font-bold">Food Custody</span></h3>
         <div className="text-xl md:text-3xl w-fit font-bold mb-6">
           <h1>Feels Like a Home,</h1>
           <h1>Tastes Like a Paradise</h1>
